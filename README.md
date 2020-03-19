@@ -1,5 +1,7 @@
 # TesteFCamara
 Projeto de teste para FCarama.
+Para visualizar o projeto, acessar branch develop devido a um problmea no GIT.
+
 
 1) EXPLIQUE COM SUAS PALAVRAS O QUE É DOMAIN DRIVEN DESIGN E SUA IMPORTÂNCIA
 NA ESTRATÉGIA DE DESENVOLVIMENTO DE SOFTWARE.
