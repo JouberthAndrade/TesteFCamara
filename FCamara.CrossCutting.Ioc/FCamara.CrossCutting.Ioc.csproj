@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="Flunt" Version="1.0.4" />
+    <PackageReference Include="MediatR" Version="8.0.1" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.6" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FCamara.Domain.Core\FCamara.Domain.Core.csproj" />
+    <ProjectReference Include="..\FCamara.Domain.Service\FCamara.Domain.Service.csproj" />
+    <ProjectReference Include="..\FCamara.Domain\FCamara.Domain.csproj" />
+    <ProjectReference Include="..\FCamara.Infra\FCamara.Infra.csproj" />
+    <ProjectReference Include="..\FCamara.Shared\FCamara.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
